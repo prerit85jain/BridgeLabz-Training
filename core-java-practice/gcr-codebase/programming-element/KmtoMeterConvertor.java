@@ -1,4 +1,4 @@
-public class KmtoMConvertor {
+public class KmtoMeterConvertor {
     // Main Function
     public static void main(String[] args) {
         // Variable Declaration
