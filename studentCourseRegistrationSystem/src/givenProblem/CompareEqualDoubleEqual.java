@@ -1,0 +1,19 @@
+package givenProblem;
+
+public class CompareEqualDoubleEqual {
+	public static void main(String[] args) {
+		int num1 = 5;
+		int num2 = 13;
+		System.out.println("= used to assign value");
+		System.out.println("Number 1: "+ num1);
+		System.out.println("Number 1: "+ num1);
+		
+		System.out.println("\n== use to compare value are they equal or not");
+		if(num1 == num2) {
+			System.out.println("Both are equal");
+		}else {
+			System.out.println("Both are not equal");
+		}
+		
+	}
+}

@@ -1,0 +1,7 @@
+package studentCourseRegistraionSystem;
+
+public class CourseLimitExceededException extends Exception {
+	CourseLimitExceededException(String message){
+		super(message);
+	}
+}

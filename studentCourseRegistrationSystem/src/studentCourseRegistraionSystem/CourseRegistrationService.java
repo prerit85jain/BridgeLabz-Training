@@ -1,0 +1,52 @@
+package studentCourseRegistraionSystem;
+
+import java.util.HashMap;
+
+public class CourseRegistrationService extends RegistrationService {
+	private HashMap<String, Student> students = new HashMap<>();
+	private static final int MAX_COURSE = 3;
+	
+	@Override
+	public void registerStudent(Student student) {
+		students.put(student.getStudentId(), student);
+		System.out.println("Student Register Successfully.");
+	}
+	
+	@Override
+	public void enrollCourse(String studentId, Course course) throws CourseLimitExceededException {
+		Student student = students.get(studentId);
+		
+		if(student.getEnrolledCourse().size() >= MAX_COURSE) {
+			throw new CourseLimitExceededException("Course Limit Exceed");
+		}
+		
+		student.getEnrolledCourse().add(course);
+		System.out.println("Course Enrolled Successfully.");
+	}
+	
+	@Override
+	public void dropCourse(String studentId, String courseId) {
+		Student student = students.get(studentId);
+		
+		for(Course course : student.getEnrolledCourse()) {
+			if(course.getCourseId().equalsIgnoreCase(courseId)) {
+				student.getEnrolledCourse().remove(course);
+				break;
+			}
+		}
+		System.out.println("Course Dropped Successfully.");
+	}
+	
+	public void viewCourses(String studentId) {
+		Student student = students.get(studentId);
+		System.out.println("Enrolled Courses: ");
+		for(Course c : student.getEnrolledCourse()) {
+			System.out.println(c);
+		}
+	}
+	
+	public Student getStudent(String studentId) {
+		return students.get(studentId);
+	}
+	
+}
