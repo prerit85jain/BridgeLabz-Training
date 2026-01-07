@@ -1,0 +1,27 @@
+package studentCourseRegistrationSystem;
+
+import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
+
+public class Main {
+	
+	static {
+		System.out.println("Welcome to Student Registration Portal");
+	}
+	public static void showOptions() {
+		System.out.println("Select option:");
+		System.out.println("1. Register Student");
+		System.out.println("2. Details");
+		System.out.println("3. Update Information");
+		System.out.println("4. Withdraw Student");
+		System.out.print("Enter Choice: ");
+	}
+	public static void main(String[] args) {
+		List<Student> students = new ArrayList<>();
+		Scanner scanner = new Scanner(System.in);
+		Student std1 = new Student(01, "Alice", "B.Tech", "A");
+		showOptions();
+		int choice = scanner.nextInt();
+	}
+}

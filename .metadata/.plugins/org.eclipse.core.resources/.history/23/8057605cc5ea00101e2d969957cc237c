@@ -1,0 +1,8 @@
+package studentCourseRegistraion;
+
+public abstract class RegistrationService {
+	public abstract void registerStudent(Student student);
+	public abstract void enrolledCourse(String studentId, Course course)
+		throws CourseLimitExceededException;
+	public abstract void dropCourse(String studentId, String courseId);
+}

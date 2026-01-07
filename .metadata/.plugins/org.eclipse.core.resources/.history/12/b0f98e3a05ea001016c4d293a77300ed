@@ -1,0 +1,65 @@
+package studentCourseRegistrationSystem;
+
+import java.util.*;
+
+public class Main {
+	private static int totalStudent = 0;
+	static {
+		System.out.println("Welcome to Student Registration Portal");
+	}
+	public static void showOptions() {
+		System.out.println("\nSelect option:");
+		System.out.println("1. Register Student");
+		System.out.println("2. Details");
+		System.out.println("3. Update Information");
+		System.out.println("4. Withdraw Student");
+		System.out.println("5. Exit");
+		System.out.print("Enter Choice: ");
+	}
+	public static void showCourseOption() {
+		System.out.println("Course Option:");
+		System.out.println("B.Tech\nM.Tech\nBCA\nMCA");
+	}
+	public static void main(String[] args) {
+		HashMap<Integer, Students> students = new HashMap<>();
+		Scanner scanner = new Scanner(System.in);
+		while(true) {
+			showOptions();
+			int choice = scanner.nextInt();
+			if (choice == 5) {
+				break;
+			}
+			switch(choice) {
+			case 1:
+				showCourseOption();
+				int rollNo = ++totalStudent;
+				System.out.print("Enter Name: ");
+				String name = scanner.next();
+				System.out.print("Enter course: ");
+				String course = scanner.next();
+				System.out.print("Enter Grade: ");
+				String grade = scanner.next();
+				students.put(rollNo, new Students(name, course, grade));
+				break;
+			case 2:
+				System.out.println("All Students: ");
+				for(Student std : students) {
+					std.getDetails();
+				}
+				break;
+			case 3:
+				System.out.println("Select Option:");
+				System.out.println("1. Edit Name");
+				System.out.println("2. Edit Grade");
+				int editOption = scanner.nextInt();
+				switch(editOption) {
+				case 1:
+					System.out.print("Enter change name: ");
+					String changeName = scanner.next();
+					
+				}
+			}
+		}
+		scanner.close();
+	}
+}

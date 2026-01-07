@@ -1,0 +1,24 @@
+package studentCourseRegistrationSystem;
+
+public class Parent {
+
+}
+import java.util.*;
+
+//-------------------- Parent Class --------------------
+
+
+//-------------------- Custom Exception --------------------
+class CourseLimitExceededException extends Exception {
+ CourseLimitExceededException(String message) {
+     super(message);
+ }
+}
+
+//-------------------- Student Class --------------------
+
+
+//-------------------- Abstraction --------------------
+
+
+//-------------------- Main Class --------------------

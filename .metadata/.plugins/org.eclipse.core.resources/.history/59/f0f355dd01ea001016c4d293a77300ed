@@ -1,0 +1,25 @@
+package studentCourseRegistrationSystem;
+
+public class StudentCourseSystem {
+	 public static void main(String[] args) {
+
+	     RegistrationService service = new RegistrationServiceImpl();
+
+	     Student s1 = new Student(101, "Dhruv", 21);
+	     service.registerStudent(s1);
+
+	     try {
+	         s1.enrollCourse("Java");
+	         s1.enrollCourse("DSA");
+	         s1.enrollCourse("DBMS");
+	         s1.enrollCourse("OS"); // will throw exception
+	     } catch (CourseLimitExceededException e) {
+	         System.out.println(e.getMessage());
+	     }
+
+	     s1.addGrade("Java", 90);
+	     s1.addGrade("DSA", 85);
+
+	     s1.displayDetails();
+	 }
+	}
