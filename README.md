@@ -46,6 +46,19 @@ gcr-codebase/ └── arrays/ └── src/
 gcr-codebase/ └── string/ └── src/
 <a href="https://github.com/prerit85jain/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/string/src">String</a>
 
+### 22 Dec (Monday)
+-  Solved problems of **Level 1, Level 2 abd Level 3** under *Methods*.
+-  Submitted solutions in:
+gcr-codebase/ └── methods/ └── src/
+<a href="https://github.com/prerit85jain/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/Methods/src">Methods</a>
+- Solve extra problems of *built-in function* and *string*.
+<a href="https://github.com/prerit85jain/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/builtInFunction/src/extraProblems">built-in Extra</a>
+<a href="https://github.com/prerit85jain/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/string/src/extras">String Extra</a>
+
+### 23 Dec (Tuesday)
+- Started OOPs
+- [Branch: OOPs-practice](https://github.com/prerit85jain/BridgeLabz-Training/tree/oops-practice)
+
 ## 🔗 Quick Links
 - [Repository Home](https://github.com/prerit85jain/BridgeLabz-Training/tree/main)
 - [Branch: core-java-practice](https://github.com/prerit85jain/BridgeLabz-Training/tree/core-java-practice/core-java-practice)
