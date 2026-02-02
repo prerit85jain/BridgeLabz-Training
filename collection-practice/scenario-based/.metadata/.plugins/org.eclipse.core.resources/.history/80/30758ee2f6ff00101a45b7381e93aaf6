@@ -1,6 +1,0 @@
-package streamBuzz;
-
-public class CreatorStats {
-	public String CreatorName;
-	public double[] WeeklyLikes; 
-}

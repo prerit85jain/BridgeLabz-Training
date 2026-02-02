@@ -14,6 +14,7 @@ public interface TransportService {
 		System.out.println("Route: " + getRoute());
 		System.out.println("Fare: " + getFare());
 		System.out.println("Time: " + getDepartureTime());
+		System.out.println();
 	}
 	
 	static void logService(String msg) {
