@@ -1,0 +1,15 @@
+package studentCourseRegistrationSystem;
+
+public class Student {
+	private String name;
+	private int rollNo;
+	private String course;
+	private double grade;
+	
+	Student(String name, int rollNo, String course, double grade){
+		this.name = name;
+		this.rollNo = rollNo;
+		this.course = course;
+		this.grade = grade;
+	}
+}

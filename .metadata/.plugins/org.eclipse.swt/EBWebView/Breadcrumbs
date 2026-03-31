@@ -1,0 +1,61 @@
+0:22:31 Microsoft.Shutdown.TabStripModel.RunUnloadListenerBeforeClosing_false
+0:22:31 Microsoft.Shutdown.TabStripModel.InternalCloseTabsImpl_ClosedAll
+0:22:31 Microsoft.Shutdown.TabStripModel.SendDetachWebContentsNotifications
+0:22:31 Microsoft.UnloadController.ClearUnloadState
+0:22:31 Browser31 Close Tab31 at 0
+0:22:31 Tab31 WebContentsDestroyed
+0:22:31 Microsoft.UnloadController.TabStripEmpty
+0:22:31 Microsoft.UnloadController.IsUnclosableApp_IsNotWebApp
+0:22:31 Microsoft.UnloadController.HasCompletedUnloadProcessing_True
+0:22:31 Microsoft.Shutdown.OnWindowClosing
+0:22:31 Microsoft.UnloadController.IsUnclosableApp_IsNotWebApp
+0:22:31 Microsoft.UnloadController.HasCompletedUnloadProcessing_True
+0:22:31 Microsoft.Shutdown.OnWindowClosingPostClearBrowsingData_NoBrowsingDataCleared
+0:22:31 Widget Closed: BrowserWidget
+0:22:31 Microsoft.UnloadController.HasCompletedUnloadProcessing_True
+0:22:31 Microsoft.Shutdown.OnWindowClosing
+0:22:31 Microsoft.Shutdown.OnWindowClosing_DeleteScheduled
+0:22:31 Microsoft.Browser_Removed
+0:22:31 Microsoft.NewBrowser_Popup
+0:22:31 Microsoft.BrowserList.AddBrowser
+0:22:31 Browser32 Insert active Tab32 at 0
+0:22:31 Tab32 StartNav126 #auto_toplevel
+0:22:31 Tab32 StartNav127 #typed
+0:22:31 Tab32 FinishNav126
+0:22:31 Tab32 PageLoad
+0:22:31 Tab32 FinishNav127
+0:22:31 Tab32 PageLoad
+0:22:31 Tab32 StartNav128 #typed
+0:22:32 Tab32 FinishNav128
+0:22:32 Tab32 PageLoad
+0:23:05 Tab32 StartNav129 #typed
+0:23:05 Tab32 FinishNav129
+0:23:05 Tab32 PageLoad
+0:23:24 Tab32 StartNav130 #typed
+0:23:24 Tab32 FinishNav130
+0:23:24 Tab32 PageLoad
+0:23:26 Tab32 StartNav131 #typed
+0:23:26 Tab32 FinishNav131
+0:23:26 Tab32 PageLoad
+0:23:55 Tab32 StartNav132 #typed
+0:23:55 Tab32 FinishNav132
+0:23:55 Tab32 PageLoad
+0:24:02 Tab32 StartNav133 #typed
+0:24:02 Tab32 FinishNav133
+0:24:02 Tab32 PageLoad
+0:24:05 Tab32 StartNav134 #typed
+0:24:05 Tab32 FinishNav134
+0:24:05 Tab32 PageLoad
+0:26:30 Tab30 StartNav135 #typed
+0:26:30 Tab30 FinishNav135
+0:26:30 Tab30 PageLoad
+0:26:31 Tab30 StartNav136 #typed
+0:26:31 Tab30 FinishNav136
+0:26:31 Tab30 PageLoad
+0:26:38 Tab30 StartNav137 #typed
+0:26:38 Tab30 FinishNav137
+0:26:38 Tab30 PageLoad
+0:27:16 Tab32 StartNav138 #typed
+0:27:16 Tab32 FinishNav138
+0:27:16 Tab32 PageLoad
+0:28:56 Microsoft.UnloadController.IsUnclosableApp_IsNotWebApp

@@ -1,0 +1,23 @@
+package studentCourseRegistrationSystem;
+
+import java.util.HashMap;
+
+abstract class RegistrationService {
+	 abstract void registerStudent(Student student);
+	 abstract Student getStudent(int studentId);
+	}
+
+	class RegistrationServiceImpl extends RegistrationService {
+
+	 private HashMap<Integer, Student> studentMap = new HashMap<>();
+
+	 @Override
+	 void registerStudent(Student student) {
+	     studentMap.put(student.getStudentId(), student);
+	 }
+
+	 @Override
+	 Student getStudent(int studentId) {
+	     return studentMap.get(studentId);
+	 }
+	}
